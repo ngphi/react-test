@@ -15,7 +15,7 @@ export function loadImages() {
 
         dispatch({
           type: 'FETCH_IMAGES',
-          urls: data.map(({images, user}) => ({
+          urls: data.map(({images = {}, user = {}}) => ({
             url: images.downsized_medium.url,
             avatarUrl: user.avatar_url,
             username: user.username
