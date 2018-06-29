@@ -14,7 +14,7 @@ const App = ({urls, isLoading}) =>
         )
       }
     </Grid>
-    <Loading isLoading />
+    <Loading isLoading={isLoading} />
   </div>
 
 export default fetchOnScroll(App);

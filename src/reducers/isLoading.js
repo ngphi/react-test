@@ -1,8 +1,8 @@
 const reducer = (state = false, action) => {
   switch(action.type) {
-    case 'FETCHTING':
+    case 'FETCHING':
       return true;
-    case 'FETCHTING_END':
+    case 'FETCHING_END':
       return false;
     default:
       return state
