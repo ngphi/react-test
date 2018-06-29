@@ -1,0 +1,18 @@
+.username-container {
+  padding: 0.5em;
+  display: flex;
+}
+
+.username-name {
+  margin-left: 0.5em;
+}
+
+.username-avatar {
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+}
+
+.username-name {
+  color: var(--secondary-color);
+}

@@ -1,0 +1,30 @@
+.image-container {
+  padding: var(--gutter);
+  background-color: white;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all 0.2s ease-out;
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+}
+
+.image-footer {
+  display: flex;
+  color: var(--primary-color);
+  margin-top: var(--gutter);
+}
+
+.image-item {
+  margin-left: 1em;
+  display:
+}
+
+.image-item-left {
+  margin-right: auto;
+}

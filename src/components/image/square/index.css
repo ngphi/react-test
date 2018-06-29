@@ -1,0 +1,20 @@
+.square-box{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
