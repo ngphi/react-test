@@ -25,7 +25,7 @@ export default function (InnerComponent) {
       const offset = d.scrollTop + window.innerHeight;
       const height = d.offsetHeight;
 
-      return offset === height;
+      return offset + 100 > height;
     }
 
     render() {
